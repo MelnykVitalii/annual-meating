@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from 'vue-router/dist/vue-router'
+import { createWebHistory, createRouter } from 'vue-router'
 import speakerList from '@/components/speakerList/speakerList'
 import SpeakerView from '@/components/speakerView/speakerView'
 import Dashboard from '@/components/dashboard/dashboard'
