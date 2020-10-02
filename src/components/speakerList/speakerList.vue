@@ -11,7 +11,13 @@
         class="speakersContainer-list--item"
         @click="viewSpeaker(item)"
       >
-        <div class="list--item-img" />
+        <img
+          class="list--item-img"
+          :src="
+            require(`@/assets/images/speakers-list/${item['Do we have a photo?']}.jpg`)
+          "
+        />
+
         <div class="list--item-block">
           <h3 class="list--item-name">
             {{ `${item['First Name']} ${item['Last Name']}` }}
@@ -48,10 +54,6 @@ export default {
         params: { id: item['First Name'] }
       })
     }
-
-    // getImgUrl(item) {
-    //   return `../../assets/images/speakers-list/${item['First Name']}`
-    // }
   }
 }
 </script>

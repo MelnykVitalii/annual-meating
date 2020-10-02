@@ -2,7 +2,12 @@
   <div class="speakers-view-container">
     <div class="container">
       <div>
-        <div class="view--photo" />
+        <img
+          class="view--photo"
+          :src="
+            require(`@/assets/images/speakers-list/${user['Do we have a photo?']}.jpg`)
+          "
+        />
       </div>
       <div class="view--info">
         <h3 class="view--item-name">
