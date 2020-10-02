@@ -1,0 +1,61 @@
+.container {
+  width: 80%;
+  margin: 30px 10%;
+}
+
+.speakersContainer-filter {
+  list-style: none;
+  position: fixed;
+  width: 30px;
+  text-align: center;
+  margin-left: -25px;
+  border: 2px solid #9ed8b3;
+  text-transform: uppercase;
+  color: #707070;
+}
+.speakersContainer-filter li {
+  padding: 5px 0;
+}
+
+.speakersContainer {
+  background-color: #fff7ea;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.speakersContainer-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.speakersContainer-list--item {
+  width: 45%;
+  margin: 0 2% 20px 2%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.list--item-img {
+  height: 90px;
+  width: 90px;
+}
+
+.list--item-name {
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
+.list--item-description {
+  color: #9ed8b3;
+  font-size: 18px;
+}
+
+.list--item-block {
+  margin-left: 25px;
+}

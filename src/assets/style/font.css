@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+  font-family: 'Geometric';
+  src: url('../font/geometric_slabserif_703_bold_bt.ttf');
+}
+
+* {
+  font-family: 'Geometric';
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
