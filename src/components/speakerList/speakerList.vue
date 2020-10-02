@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-list">
     <ul class="speakersContainer-filter">
       <li v-for="letter in alphabet" :key="letter">{{ letter }}</li>
     </ul>
@@ -11,12 +11,7 @@
         class="speakersContainer-list--item"
         @click="viewSpeaker(item)"
       >
-        <img
-          :src="
-            require('../../assets/images/speakers-list/Anderson, Steven.jpg')
-          "
-          class="list--item-img"
-        />
+        <div class="list--item-img" />
         <div class="list--item-block">
           <h3 class="list--item-name">
             {{ `${item['First Name']} ${item['Last Name']}` }}
@@ -53,6 +48,10 @@ export default {
         params: { id: item['First Name'] }
       })
     }
+
+    // getImgUrl(item) {
+    //   return `../../assets/images/speakers-list/${item['First Name']}`
+    // }
   }
 }
 </script>

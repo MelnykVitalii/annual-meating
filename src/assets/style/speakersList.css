@@ -1,6 +1,6 @@
-.container {
+.container-list {
   width: 80%;
-  margin: 30px 10%;
+  margin: 85px 10% 0 10%;
 }
 
 .speakersContainer-filter {
@@ -14,7 +14,7 @@
   color: #707070;
 }
 .speakersContainer-filter li {
-  padding: 5px 0;
+  padding: 4px 0;
 }
 
 .speakersContainer {
@@ -38,11 +38,15 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .list--item-img {
+  display: table;
   height: 90px;
   width: 90px;
+  border: 1px solid #707070;
+  background: #ffffff;
 }
 
 .list--item-name {

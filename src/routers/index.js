@@ -2,6 +2,8 @@ import { createWebHistory, createRouter } from 'vue-router'
 import speakerList from '@/components/speakerList/speakerList'
 import SpeakerView from '@/components/speakerView/speakerView'
 import Dashboard from '@/components/dashboard/dashboard'
+import AgendaList from '@/components/agendaList/agendaList'
+import Form from '@/components/form/form'
 
 const routes = [
   {
@@ -13,6 +15,16 @@ const routes = [
     path: '/list',
     name: 'speakerList',
     component: speakerList
+  },
+  {
+    path: '/agenda',
+    name: 'agendaList',
+    component: AgendaList
+  },
+  {
+    path: '/form',
+    name: 'form',
+    component: Form
   },
   {
     path: '/view/:id',

@@ -1,0 +1,47 @@
+.speakers-view-container {
+  position: absolute;
+  background-color: #fff7ea;
+  height: calc(100% - 70px);
+  width: 100%;
+  margin-top: 70px;
+}
+
+.container {
+  width: 80%;
+  margin: 30px 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.view--photo {
+  width: 350px;
+  height: 350px;
+  background: #ffffff;
+  border: 1px solid #707070;
+}
+
+.view--info {
+  margin-left: 20px;
+}
+
+.view--item-name {
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
+.view--item-affiliation {
+  letter-spacing: 0;
+  color: #9ed8b3;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.view--item-bio {
+  font-family: 'Roboto';
+  margin-top: 20px;
+  letter-spacing: 0;
+  color: #000000;
+  font-size: 20px;
+}

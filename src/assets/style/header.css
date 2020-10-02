@@ -1,0 +1,34 @@
+.header {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  background: #1a3c34;
+  width: 100%;
+  z-index: 1;
+}
+.header-container {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header-logo {
+  height: 70px;
+}
+.header-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-link a {
+  font-family: 'Roboto';
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 15px;
+}
