@@ -2,9 +2,10 @@
   "name": "Annual_Meeting",
   "description": "A really cool app",
   "version": "1.0.0",
+  "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "GENERATE_SOURCEMAP=false vue-cli-service build",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "start": "node server.js",
     "prettier": "prettier --write **/*.{vue,js,css,html}"
