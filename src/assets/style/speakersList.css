@@ -1,66 +1,94 @@
-.container-list {
-  width: 80%;
-  margin: 85px 10% 0 10%;
+.speakers-panel {
+  background-color: var(--main-bg-color);
 }
 
-.speakersContainer-filter {
+.speakers-panel--container {
+  position: relative;
+  width: 80%;
+  margin: 50px 10% 0 10%;
+}
+
+.speakers-panel--filter {
   list-style: none;
   position: fixed;
   width: 30px;
   text-align: center;
   margin-left: -25px;
-  border: 2px solid #9ed8b3;
+  border: 2px solid var(--ligth-green);
   text-transform: uppercase;
-  color: #707070;
-}
-.speakersContainer-filter li {
-  padding: 4px 0;
+  color: var(--text-color-3);
 }
 
-.speakersContainer {
-  background-color: #fff7ea;
+.speakers-panel--filter li {
+  padding: 3px 0;
+  opacity: 0.8;
+}
+
+.speakers-panel--list {
   height: auto;
   width: 100%;
   display: flex;
   flex-direction: row;
-}
-
-.speakersContainer-list {
-  display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
 
-.speakersContainer-list--item {
-  width: 45%;
+.speakers-panel--list-item {
+  width: 46%;
   margin: 0 2% 20px 2%;
-  height: 90px;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
 
-.list--item-img {
+.speakers-panel--list-item:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.list-item--img {
   display: table;
   height: 90px;
   width: 90px;
-  border: 1px solid #707070;
-  background: #ffffff;
+  border: 1px solid var(--text-color-3);
+  background: white;
   object-fit: cover;
 }
 
-.list--item-name {
-  color: #000000;
+.list-item--block {
+  padding: 5px 0 0 20px;
+}
+
+.list-item--name {
+  font-family: 'Bastille', Roboto, serif;
+  color: black;
   font-size: 32px;
   letter-spacing: 0;
 }
 
-.list--item-description {
-  color: #9ed8b3;
-  font-size: 18px;
+.list-item--description {
+  color: var(--ligth-green);
+  font-size: 15px;
 }
 
-.list--item-block {
-  margin-left: 25px;
+.list-item--affiliation {
+  color: var(--ligth-green);
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .speakers-panel--filter {
+    display: none;
+  }
+
+  .speakers-panel--list {
+    flex-direction: column;
+  }
+
+  .speakers-panel--list-item {
+    width: 100%;
+    margin: 10px 0;
+  }
 }

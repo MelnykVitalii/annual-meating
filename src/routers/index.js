@@ -1,9 +1,11 @@
 import { createWebHistory, createRouter } from 'vue-router'
-import speakerList from '@/components/speakerList/speakerList'
-import SpeakerView from '@/components/speakerView/speakerView'
+
 import Dashboard from '@/components/dashboard/dashboard'
+import SignIn from '@/components/signIn/signIn'
+import SpeakerList from '@/components/speakerList/speakerList'
+import SpeakerView from '@/components/speakerView/speakerView'
 import AgendaList from '@/components/agendaList/agendaList'
-import Form from '@/components/form/form'
+import AgendaView from '@/components/agendaView/agendaView'
 
 const routes = [
   {
@@ -12,24 +14,30 @@ const routes = [
     component: Dashboard
   },
   {
-    path: '/list',
-    name: 'speakerList',
-    component: speakerList
+    path: '/signIn',
+    name: 'SignIn',
+    component: SignIn
   },
   {
-    path: '/agenda',
-    name: 'agendaList',
+    path: '/speakerList',
+    name: 'SpeakerList',
+    component: SpeakerList
+  },
+  {
+    path: '/speakerView/:id',
+    name: 'SpeakerView',
+    component: SpeakerView,
+    props: true
+  },
+  {
+    path: '/agendaList',
+    name: 'AgendaList',
     component: AgendaList
   },
   {
-    path: '/form',
-    name: 'form',
-    component: Form
-  },
-  {
-    path: '/view/:id',
-    name: 'speakerView',
-    component: SpeakerView,
+    path: '/agendaView/:id',
+    name: 'AgendaView',
+    component: AgendaView,
     props: true
   }
 ]

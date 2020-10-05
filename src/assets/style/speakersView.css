@@ -1,48 +1,63 @@
-.speakers-view-container {
-  position: absolute;
-  background-color: #fff7ea;
-  height: calc(100% - 70px);
-  width: 100%;
-  margin-top: 70px;
+.speaker-view-panel {
+  background-color: var(--main-bg-color);
 }
 
-.container {
+.speaker-view-panel--container {
+  position: relative;
   width: 80%;
-  margin: 30px 10%;
+  height: auto;
+  margin: 50px 10% 0 10%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.view--photo {
+.speaker-view--photo {
   width: 350px;
   height: 350px;
-  background: #ffffff;
-  border: 1px solid #707070;
+  background: white;
+  border: 1px solid var(--text-color-3);
   object-fit: cover;
 }
 
-.view--info {
+.speaker-view--block {
   margin-left: 20px;
 }
 
-.view--item-name {
-  color: #000000;
-  font-size: 32px;
+.speaker-view--name {
+  font-family: 'Bastille', Roboto, serif;
+
+  color: black;
+  font-size: 50px;
   letter-spacing: 0;
 }
 
-.view--item-affiliation {
+.speaker-view--affiliation {
   letter-spacing: 0;
-  color: #9ed8b3;
+  color: var(--ligth-green);
   font-size: 25px;
   font-weight: bold;
 }
 
-.view--item-bio {
-  font-family: 'Roboto';
-  margin-top: 20px;
+.speaker-view--bio {
+  font-family: 'Roboto', serif;
+  margin-top: 10px;
   letter-spacing: 0;
-  color: #000000;
+  color: black;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .speaker-view-panel--container {
+    flex-direction: column;
+  }
+
+  .speaker-view--block {
+    margin: 10px 0;
+  }
+
+  .speaker-view--photo {
+    width: 150px;
+    height: 150px;
+  }
 }

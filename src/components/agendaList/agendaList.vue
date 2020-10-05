@@ -38,6 +38,15 @@ export default {
     return {
       show: true
     }
+  },
+
+  methods: {
+    viewAgenda(id) {
+      this.$router.push({
+        name: 'AgendaView',
+        params: { id }
+      })
+    }
   }
 }
 </script>

@@ -1,46 +1,40 @@
 <template>
-  <div class="speakers-view-container">
-    <div class="container">
+  <div class="content-block speaker-view-panel">
+    <div class="speaker-view-panel--container">
       <div>
         <img
-          class="view--photo"
-          :src="
-            require(`@/assets/images/speakers-list/${user['Do we have a photo?']}.jpg`)
-          "
+          class="speaker-view--photo"
+          :src="require(`@/assets/images/speakers-list/${user.file_img}`)"
         />
       </div>
-      <div class="view--info">
-        <h3 class="view--item-name">
-          {{ `${user['First Name']} ${user['Last Name']}` }}
-        </h3>
-        <span class="view--item-affiliation">{{ user.Affiliation }}</span>
-        <p class="view--item-bio">{{ user.Bio }}</p>
+      <div class="speaker-view--block">
+        <h3 class="speaker-view--name">{{ user.title }}</h3>
+        <span class="speaker-view--affiliation">{{ user.affiliation }}</span>
+        <p class="speaker-view--bio">{{ user.bio }}</p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import users from '@/data/data'
+import { getSpeakerById } from '@/database/index'
 
 export default {
   name: 'SpeakerView',
   props: {
     id: {
       type: [String],
-      default: 'null'
+      default: '1'
     }
   },
   data() {
     return {
-      listSpeakers: [],
       user: {}
     }
   },
 
   beforeMount() {
-    this.listSpeakers = users.Speakers
-    this.user = this.listSpeakers.find((x) => x['First Name'] === this.id)
+    this.user = getSpeakerById(this.id)
   }
 }
 </script>
