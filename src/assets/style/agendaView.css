@@ -1,0 +1,12 @@
+.agendaView-panel {
+  background-color: var(--text-color);
+}
+
+.agendaView-container {
+  width: 80%;
+  height: auto;
+  min-height: 600px;
+  margin: 50px 10%;
+  position: relative;
+  background: var(--main-bg-color);
+}

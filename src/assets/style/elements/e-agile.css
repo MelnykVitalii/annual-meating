@@ -1,0 +1,24 @@
+.agile__actions {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.agile__nav-button {
+  cursor: pointer;
+  visibility: hidden;
+  font-family: 'Bastille', Roboto, serif;
+  margin-top: -10px;
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--ligth-green);
+}
+
+.agile__nav-button--prev:before {
+  content: '<' !important;
+  visibility: visible;
+}
+.agile__nav-button--next:after {
+  content: '>' !important;
+  visibility: visible;
+}

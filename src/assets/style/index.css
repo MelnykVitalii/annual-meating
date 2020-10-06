@@ -1,6 +1,10 @@
 @import 'main.css';
+@import 'elements/e-input.css';
+@import 'elements/e-switch.css';
+@import 'elements/e-agile.css';
 @import 'speakersList.css';
 @import 'speakersView.css';
 @import 'header.css';
 @import 'agendaList.css';
+@import 'agendaView.css';
 @import 'signIn.css';

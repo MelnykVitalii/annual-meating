@@ -1,0 +1,44 @@
+.e-switch {
+    position: relative;
+    margin: 20px auto;
+    height: 30px;
+    width: 220px;
+    background: var(--ligth-green);
+    border-radius: 20px;
+    padding: 3px;
+}
+.e-switch input {
+    display: none;
+}
+.e-switch label {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Bastille', Roboto, serif;
+    z-index: 2;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.e-switch--selection {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: var(--text-color);
+    height: 36px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    z-index: 1;
+    transition: 0.15s ease-out;
+}
+
+.e-switch input[type='checkbox']:checked + .e-switch--selection {
+    left: 50%;
+}

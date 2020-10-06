@@ -1,0 +1,11 @@
+input {
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    width: 100%;
+    margin: 10px 0;
+    height: 57px;
+    background: white;
+    border-radius: 12px;
+    border: none;
+    padding: 0 10px;
+}
