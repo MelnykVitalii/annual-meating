@@ -8,8 +8,12 @@
         />
       </div>
       <div class="speaker-view--block">
-        <h3 class="speaker-view--name">{{ user.title }}</h3>
-        <span class="speaker-view--affiliation">{{ user.affiliation }}</span>
+        <h3 class="speaker-view--name">
+          {{ user.first_name }}{{ user.last_name }}
+        </h3>
+        <span class="speaker-view--affiliation"
+          >{{ user.title }}<br />{{ user.affiliation }}</span
+        >
         <p class="speaker-view--bio">{{ user.bio }}</p>
       </div>
     </div>
