@@ -11,6 +11,7 @@
     "prettier": "prettier --write **/*.{vue,js,css,html}"
   },
   "dependencies": {
+    "animated-scroll-to": "^2.0.10",
     "axios": "^0.20.0",
     "vue": "^3.0.0-0",
     "vue-agile": "^1.1.3",

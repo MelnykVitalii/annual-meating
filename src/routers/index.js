@@ -35,7 +35,7 @@ const routes = [
     component: AgendaList
   },
   {
-    path: '/agendaView/:id',
+    path: '/agendaView/:id/:index',
     name: 'AgendaView',
     component: AgendaView,
     props: true

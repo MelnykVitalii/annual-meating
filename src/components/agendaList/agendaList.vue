@@ -29,11 +29,14 @@
           class="agendaList--item"
         >
           <div>
-            <h4 class="agendaList--item--title">Plenary session</h4>
+            <h4 class="agendaList--item--title">
+              {{ session.type_session }} session
+            </h4>
             <h3 class="agendaList--item--name">{{ session.session_title }}</h3>
             <span class="agendaList--item--time">
               <img src="../../assets/images/time.svg" />
-              {{ agenda.session_title }} | {{ agenda.revised_schedule }}</span
+              {{ session.time }} |
+              {{ agenda.revised_schedule.replace(/,.*/, '') }}</span
             >
           </div>
           <div class="agendaList--item--actions">
@@ -46,7 +49,10 @@
 
             <router-link
               class="agendaList--item--actions--link"
-              :to="{ name: 'AgendaView', params: { id: agenda.id } }"
+              :to="{
+                name: 'AgendaView',
+                params: { id: agenda.id, index: index }
+              }"
               >details</router-link
             >
           </div>
@@ -62,11 +68,15 @@
           class="agendaList--item"
         >
           <div>
-            <h4 class="agendaList--item--title">Plenary session</h4>
+            <h4 class="agendaList--item--title">
+              {{ myAgenda.type_session }} session
+            </h4>
             <h3 class="agendaList--item--name">{{ myAgenda.session_title }}</h3>
             <span class="agendaList--item--time">
               <img src="../../assets/images/time.svg" />
-              {{ myAgenda.time }} | {{ myAgenda.revised_schedule }}</span
+              {{ myAgenda.time }} |{{
+                myAgenda.revised_schedule.replace(/,.*/, '')
+              }}</span
             >
           </div>
           <div class="agendaList--item--actions">
@@ -78,7 +88,10 @@
             </button>
             <router-link
               class="agendaList--item--actions--link"
-              :to="{ name: 'AgendaView', params: { id: myAgenda.id } }"
+              :to="{
+                name: 'AgendaView',
+                params: { id: myAgenda.id, index: index }
+              }"
               >details</router-link
             >
           </div>
@@ -116,13 +129,6 @@ export default {
   },
 
   methods: {
-    viewAgenda(id) {
-      this.$router.push({
-        name: 'AgendaView',
-        params: { id }
-      })
-    },
-
     showCurrentSlide(event) {
       this.agenda = getAgendaByIndex(event.currentSlide)
     },

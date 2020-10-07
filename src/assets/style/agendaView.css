@@ -9,4 +9,44 @@
   margin: 50px 10%;
   position: relative;
   background: var(--main-bg-color);
+  padding-top: 50px;
+}
+
+.agendaView-user-list {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: 30px 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.agendaView-user-list--item {
+  width: 40%;
+  margin: 20px 0;
+}
+.agendaView-user-list--item h2 {
+  font-family: 'Bastille', Roboto, serif;
+  color: black;
+  font-size: 32px;
+}
+.agendaView-user-list--item h3 {
+  font-family: 'Slabserif', Roboto, serif;
+  font-size: 17px;
+  color: var(--ligth-green);
+}
+
+.agendaView-user-list--item:nth-child(even) {
+  margin: 20px 5%;
+}
+
+.agendaView-user-bio {
+  position: relative;
+  width: 65%;
+  height: auto;
+  margin: 20px 10%;
+  font-family: 'Roboto', serif;
+  font-size: 20px;
 }

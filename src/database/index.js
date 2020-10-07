@@ -14,7 +14,9 @@ function getAgendaById(id) {
 }
 
 function getSpeakersList() {
-  return speakersListData
+  return speakersListData.sort((a, b) =>
+    a.first_name > b.first_name ? 1 : b.first_name > a.first_name ? -1 : 0
+  )
 }
 
 function getSpeakerById(id) {

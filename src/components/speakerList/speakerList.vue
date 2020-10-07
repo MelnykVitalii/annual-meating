@@ -2,12 +2,19 @@
   <div class="content-block speakers-panel">
     <div class="speakers-panel--container">
       <ul class="speakers-panel--filter">
-        <li v-for="letter in alphabetLetters" :key="letter">{{ letter }}</li>
+        <li
+          v-for="letter in alphabetLetters"
+          :key="letter"
+          @click="scrollTo(letter)"
+        >
+          {{ letter }}
+        </li>
       </ul>
 
       <div class="speakers-panel--list">
         <div
           v-for="item in speakersList"
+          :id="item.first_name.charAt(0).toLowerCase()"
           :key="item.id"
           class="speakers-panel--list-item"
           @click="viewSpeaker(item.id)"
@@ -31,6 +38,7 @@
 </template>
 
 <script>
+import animateScrollTo from 'animated-scroll-to'
 import Alphabet from '@/assets/config/alphabet'
 import { getSpeakersList } from '@/database/index'
 
@@ -54,6 +62,14 @@ export default {
         name: 'SpeakerView',
         params: { id }
       })
+    },
+
+    scrollTo(item) {
+      const el = document.querySelector(`#${item}`)
+
+      if (el) {
+        animateScrollTo(el)
+      }
     }
   }
 }

@@ -2,173 +2,274 @@
   {
     "id": 1,
     "revised_schedule": "Wednesday, Oct 14",
-    "session_title": "2:30 to 3:30",
     "data": [
       {
-        "session_title": "Changed by COVID-19: How America Now Thinks About Work and Entrepreneurship",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Tarren Bragdon \nClarice Smith (Interviewer) ",
-        "TPR POC": "Content: Debi\nDay of Logisitcs: Eric",
-        "Session Description:": "The COVID-19 pandemic has changed our reality forever and in particular, the way we now think about work and entrepreneurship. During this session, experts will discuss the success of new businesses over the course of COVID-19, current trends, and what we’ve learned about what it takes to support successful entrepreneurship. We’ll discuss the effects of these changes and what it means for the future of work."
+        "time": "1pm - 1:15pm",
+        "type_session": "Keynote",
+        "session_title": "Welcome i President's Address",
+        "confirmed_speakers": "Elise Westhoff, President and CEO, The Philanthropy Roundtable\n\nAdam Meyerson, President Emeritus, The Philanthropy Roundtable\n\nRick Graber, President and CEO, Lynde and Harry Bradley Foundtation",
+        "session_description": "NA"
       },
       {
+        "time": "1:15pm - 2:15pm",
+        "type_session": "Keynote",
+        "session_title": "1619 vs. 1776: When Was America Founded?",
+        "confirmed_speakers": "Leslie Harris, Professor of History, Northwestern University\n\nJohn McWhorter, Associate Professor of English, Columbia University\n\nConor Friedersdorf, Staff Writer, The Atlantic (Moderator)",
+        "session_description": "By most accounts, America was founded in 1776 when the Founding Fathers wrote the Declaration of Independence. More recently, The New York Times Magazine launched an initiative known as the 1619 Project, aiming to redefine America’s birth as being 1619, when the first slave ship arrived on American shores. Which is it: 1619 or 1776? Professor Leslie Harris will outline the 1619 Project’s positions and will shed light on misunderstandings about slavery in traditional teachings of American history. On the other side of this debate, Professor John McWhorter will introduce the 1776 Unites campaign, which maintains 1776 as America’s true founding date, upholding America’s founding principles and challenging assertions that the nation is permanently scarred by its past sins. Moderated by The Atlantic’s Conor Friedersdorf, this lively conversation will explore if the legacy of slavery or the nation’s declaration of independence is what truly defines America."
+      },
+      {
+        "time": "2:30pm - 3:30pm",
+        "type_session": "Breakout",
+        "session_title": "Changed by Covid-19; How America now thinks about work and entrepeneurship ",
+        "confirmed_speakers": "Tarren Bragdon \nClarice Smith (Interviewer) ",
+        "session_description": "The COVID-19 pandemic has changed our reality forever and in particular, the way we now think about work and entrepreneurship. During this session, experts will discuss the success of new businesses over the course of COVID-19, current trends, and what we’ve learned about what it takes to support successful entrepreneurship. We’ll discuss the effects of these changes and what it means for the future of work."
+      },
+      {
+        "time": "2:30pm - 3:30pm",
+        "type_session": "Breakout",
         "session_title": "Policy Update: The Latest Attacks on Philanthropic Freedom ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Lawson Bader, President and CEO, DonorsTrust\n\nHoward Husock, Senior Fellow, Manhattan Institute\n\nMason Rummel, President and CEO, James Graham Brown Foundation\n\nTom Riley, President, Connelly Foundation (Moderator)",
-        "TPR POC": "Content: Sandra/Sara\nDay of Logistics: Suzi",
-        "Session Description:": "“Never let a crisis go to waste.” This year, lawmakers and critics of all political stripes have taken this gallows humor to heart and philanthropic issues that have long-been settled are now ripe for renewed discussion. Questions like, “shouldn’t donor-advised funds have a mandated payout in times of crisis?” and “can’t the government be more effective than philanthropists?” In this timely session, panelists will address resurrected arguments that threaten philanthropic freedom. "
+        "confirmed_speakers": "Lawson Bader, President and CEO, DonorsTrust\n\nHoward Husock, Senior Fellow, Manhattan Institute\n\nMason Rummel, President and CEO, James Graham Brown Foundation\n\nTom Riley, President, Connelly Foundation (Moderator)",
+        "session_description": "“Never let a crisis go to waste.” This year, lawmakers and critics of all political stripes have taken this gallows humor to heart and philanthropic issues that have long-been settled are now ripe for renewed discussion. Questions like, “shouldn’t donor-advised funds have a mandated payout in times of crisis?” and “can’t the government be more effective than philanthropists?” In this timely session, panelists will address resurrected arguments that threaten philanthropic freedom. "
       },
       {
+        "time": "2:30pm - 3:30pm",
+        "type_session": "Breakout",
         "session_title": "Diseases of Despair: The Private Sector’s Response ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Matthias Bowman, Vice Chairman of Investment Banking, Merrill Lynch\n\nGary Mendell, Founder and CEO, Shatterproof\n\nAnna Bobb, Director of Health Programs, The Philanthropy Roundtable (Moderator)",
-        "TPR POC": "Content: Anna\nDay of logisitics: Alysa",
-        "Session Description:": "As COVID-19 creates a second wave of illness and death related to depression, suicide, and other diseases of despair, vast chasms in our health system’s capacity to treat mental illness have been laid bare. In this session, we’ll introduce two private sector initiatives that are creating much-needed change by tackling the health care system head-on. The Path Forward initiative stimulates change within our complex health care ecosystem by leveraging data-driven employer purchasing strategies and incentivizing partners to increase access to new care models proven to cut costs and save lives. The second initiative, Shatterproof, leverages these same private sector actors to change addiction treatment. Join this conversation to learn more from the architects of these invaluable initiatives. "
+        "confirmed_speakers": "Matthias Bowman, Vice Chairman of Investment Banking, Merrill Lynch\n\nGary Mendell, Founder and CEO, Shatterproof\n\nAnna Bobb, Director of Health Programs, The Philanthropy Roundtable (Moderator)",
+        "session_description": "As COVID-19 creates a second wave of illness and death related to depression, suicide, and other diseases of despair, vast chasms in our health system’s capacity to treat mental illness have been laid bare. In this session, we’ll introduce two private sector initiatives that are creating much-needed change by tackling the health care system head-on. The Path Forward initiative stimulates change within our complex health care ecosystem by leveraging data-driven employer purchasing strategies and incentivizing partners to increase access to new care models proven to cut costs and save lives. The second initiative, Shatterproof, leverages these same private sector actors to change addiction treatment. Join this conversation to learn more from the architects of these invaluable initiatives. "
+      },
+      {
+        "time": "3:45pm - 4:45pm",
+        "type_session": "Breakout",
+        "session_title": "Donor Privacy on the Move",
+        "confirmed_speakers": "Tracie Sharp, President and CEO, State Policy Network\n\nDavid Keating, President, Institute for Free Speech\n\nPatrice Lee Onwuka, Political Commentator and Senior Policy Analyst, Independent Women's Forum\n\nHeather Lauer, Policy Director, People United for Privacy\n\nChristie Herrera, Executive Director, Alliance for Charitable Excellence (Moderator)",
+        "session_description": "Donor privacy is a fundamental of philanthropic freedom, protecting the right of those who choose to give anonymously to do so without fear of harassment. In 2020, 15 states considered legislation that would threaten such privacy. On the other side, seven states advanced donor privacy protections this year, with four of them enacting them into law. A broad coalition of groups spanning the ideological spectrum have been working to oppose bills that would undermine donor privacy and have contributed to significant legislative and judicial victories. In this session, you’ll hear from legislative experts about the latest updates in donor privacy protection"
+      },
+      {
+        "time": "3:45pm - 4:45pm",
+        "type_session": "Breakout",
+        "session_title": "Building the Ladder to True Upward Mobility",
+        "confirmed_speakers": "Austin Buchan, CEO, College Forward\n\nLaura Evans, Business and Education Advisor-in-Residence,   Education, Ewing Marion Kauffman Foundation\n\nJonathan Johnson, Founder and CEO, Rooted School\n\nDave Clayton, Senior Vice President, Strada Education Network Center for Consumer Insights",
+        "session_description": "Even prior to the COVID-19 pandemic, economic and regional shifts prompted questions as to whether current postsecondary opportunities – four-year college degrees or otherwise – align with careers that create true upward mobility. How can donors decode employer demands and skillsets that ultimately translate to students gaining real work experience and credentialing from relevant learning models? What are the on-ramp programs and skillsets that donors can help open to students, particularly when they are still at the secondary level of their education? In this session, panelists will address these questions and more to spotlight how to build the ladder to true upward mobility. "
       }
     ]
   },
 
   {
     "id": 2,
-    "revised_schedule": "Wednesday, Oct 14",
-    "session_title": "3:45pm - 4:45pm",
+    "revised_schedule": "Thursday, October 15th",
     "data": [
       {
-        "session_title": "Donor Privacy on the Move",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Tracie Sharp, President and CEO, State Policy Network\n\nDavid Keating, President, Institute for Free Speech\n\nPatrice Lee Onwuka, Political Commentator and Senior Policy Analyst, Independent Women's Forum\n\nChristie Herrera, Executive Director, Alliance for Charitable Excellence (Moderator)",
-        "TPR POC": "Content: Christie\nDay of logistics: Amanda",
-        "Session Description:": "Donor privacy is a fundamental of philanthropic freedom, protecting the right of those who choose to give anonymously to do so without fear of harassment. In 2020, 15 states considered legislation that would threaten such privacy. On the other side, seven states advanced donor privacy protections this year, with four of them enacting them into law. A broad coalition of groups spanning the ideological spectrum have been working to oppose bills that would undermine donor privacy and have contributed to significant legislative and judicial victories. In this session, you’ll hear from legislative experts about the latest updates in donor privacy protection"
+        "time": "1pm - 1:05pm",
+        "type_session": "Keynote ",
+        "session_title": "Welcome",
+        "confirmed_speakers": "Heather Dill"
       },
       {
-        "session_title": "Building the Ladder to True Upward Mobility",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Austin Buchan, CEO, College Forward\n\nDonna McDaniel, Educator-in-residence in Education, Ewing Marion Kauffman Foundation\n\nJonathan Johnson, Founder and CEO, Rooted School\n\nDave Clayton, Senior Vice President, Strada Education Network Center for Consumer Insights",
-        "TPR POC": "Content: Pat & Tony\nDay of Logistics: Rachel",
-        "Session Description:": "Even prior to the COVID-19 pandemic, economic and regional shifts prompted questions as to whether current postsecondary opportunities – four-year college degrees or otherwise – align with careers that create true upward mobility. How can donors decode employer demands and skillsets that ultimately translate to students gaining real work experience and credentialing from relevant learning models? What are the on-ramp programs and skillsets that donors can help open to students, particularly when they are still at the secondary level of their education? In this session, panelists will address these questions and more to spotlight how to build the ladder to true upward mobility. "
+        "time": "1:05-1:50pm",
+        "type_session": "Keynote ",
+        "session_title": "Free Speech on Campus: The Role of the University and Its Leadership",
+        "confirmed_speakers": "Robert Zimmer, President, University of Chicago\n\nCason Carter, Director and Head of Public Affairs, Citadel (Moderator)",
+        "session_description": "University of Chicago President Robert Zimmer has been a visionary leader within the higher education space, working with his faculty and administration to establish the university’s Chicago Principles of Free Expression. These principles, which focus on what the role of a university should be, have been endorsed and/or adopted by more than 80 universities nationwide. In a special conversation with Cason Carter, Zimmer will discuss the relationship between free speech and open inquiry, its relationship to the First Amendment, and how his principled leadership has led to a thriving academic culture on the University of Chicago’s campus. At a time when many questions are being asked about the value of the university, Zimmer’s example provides a model for university leaders across the country. "
+      },
+      {
+        "time": "2pm - 3:15pm",
+        "type_session": "Keynote ",
+        "session_title": "Big Ideas",
+        "confirmed_speakers": "Debi Ghate (introduction)",
+        "session_description": "These short TED-style talks will introduce Big Ideas from several unique speakers.\nDuring these previews you’ll get a thorough introduction to varied topics. Afterward, you can select a Deep Dive discussion, each featuring a different speaker, in which you will delve further into the subject that interests you most."
+      },
+      {
+        "time": "2pm - 3:15pm",
+        "type_session": "Keynote ",
+        "session_title": "Battlegrounds: Defending Democracy through Principled Foreign Policy",
+        "confirmed_speakers": "LTG (Ret.) H.R. McMaster, Chairman, Center on Military and Political Power, Foundation for Defense of Democracies\n\nMarcus Ruzek, Senior Program Director, The Marcus Foundation (introducer)",
+        "session_description": "In this session, former National Security Advisor Lt. General H.R. McMaster will illuminate the threats and oppositions to America’s security, prosperity, and influence from the Chinese Communist Party. He will address what measures are being taken – and what more should be done – to defend our democracy against these threats.  "
+      },
+      {
+        "time": "2pm - 3:15pm",
+        "type_session": "Keynote ",
+        "session_title": "Cancel Culture: How to Protect Charter and Autonomous Schools",
+        "confirmed_speakers": "Steven Wilson, Senior Fellow, Center on Reinventing Education, University of Washington\n\nDaniel Schuman (introducer) ",
+        "session_description": "The prevalence of “cancel culture” is perhaps nowhere more harmful and consequential than in classrooms where students are deterred from free exchange of ideas and perspectives with their peers. Now, the Trojan Horse of cancel culture and “wokeness” is at the door of the education reform movement, threatening the charter and choice-based schools that donors have tirelessly supported to give students opportunities they would not have had otherwise. What can donors do to ensure that students are still able to think for themselves and access honest conversations and diversity of thought? This critical discussion will advise donors on how they can protect the charter and choice-based institutions they support from this harmful trend and more importantly, the students those institutions ultimately serve."
+      },
+      {
+        "time": "2pm - 3:15pm",
+        "type_session": "Keynote ",
+        "session_title": "Why Urban America Matters: Race, Opportunity and The American Future",
+        "confirmed_speakers": "Reihan Salam, President, Manhattan Institute\n\nJoe Kristol (introducer)",
+        "session_description": "With all of the attention on the protests and chaos in American cities post-George Floyd, many are thinking about whether our urban areas have become lost causes. Join Reihan Salam as he talks about what it will take to reinvigorate America’s cities, stop the mass outflow of people to more rural areas and truly ensure that all groups, including newcomers and those of minority communities, have an opportunity to thrive."
+      },
+      {
+        "time": "2pm - 3:15pm",
+        "type_session": "Keynote ",
+        "session_title": "Our Common Purpose",
+        "confirmed_speakers": "Vivek Ramaswamy, Founder and CEO, Roivant Sciences\n\nElise Westhoff, President and CEO, The Philanthropy Roundtable(introducer)",
+        "session_description": "What is our common purpose as Americans? How can we unite people around a set of shared values when we have different backgrounds, experiences, and views? As more issues become politicized, and as group identities become increasingly tribal, what is it that binds Americans together? Join us as biotech entrepreneur and author Vivek Ramaswamy, a first-generation American, shares his views on our common purpose, and how that perspective has impacted his leadership."
+      },
+      {
+        "time": "2pm - 3:15pm",
+        "type_session": "Keynote ",
+        "session_title": "Conclusion (do not post)",
+        "confirmed_speakers": "Debi Ghate "
+      },
+      {
+        "time": "3:30pm - 4:30pm",
+        "type_session": "Keynote ",
+        "session_title": "Deep Dives"
+      },
+      {
+        "time": "3:30pm - 4:30pm",
+        "type_session": "Breakout",
+        "session_title": "Why Urban America Matters: Race, Opportunity, and the American Future",
+        "confirmed_speakers": "Reihan Salam, President, Manhattan Institute\n\nTim Carney, Resident Fellow, American Enterprise Institute \n\nKristen Soltis Anderson, Co-founder, Echelon Insights (Moderator)",
+        "session_description": "With all of the attention on the protests and chaos in American cities post-George Floyd, many are thinking about whether our urban areas have become lost causes. Join Reihan Salam and Tim Carney as they talk about what it will take to reinvigorate America’s cities, stop the mass outflow of people to more rural areas and truly ensure that all groups, including newcomers and those of minority communities, have an opportunity to thrive."
+      },
+      {
+        "time": "3:30pm - 4:30pm",
+        "type_session": "Breakout",
+        "session_title": "Leading with Courage",
+        "confirmed_speakers": "Vivek Ramaswamy, Founder and CEO, Roivant Sciences\n\nAyaan Hirsi Ali, Research Fellow, Hoover Institution\n\nIan Rowe, CEO, Public Prep\n\nElise Westhoff, President and CEO, The Philanthropy Roundtable (Moderator)",
+        "session_description": "Courage. This is something leaders find themselves needing to draw upon every day, regardless of the type of organization or effort they are leading. Everyone looks to leaders for guidance, answers, and what to emulate -- whether it’s at a corporation, in thought leadership, or when fighting against an evil ideology. What does it take to lead with courage? Where do these leaders find that in themselves? How do they keep going when it looks and feels like the world is against them? Ayaan Hirsi Ali and Ian Rowe, two important scholars who have taken on unpopular and difficult issues and faced the opposition head on, join Vivek Ramaswamy to explore these issues. The session will be moderated by The Philanthropy Roundtable President and CEO Elise Westhoff."
+      },
+      {
+        "time": "3:30pm - 4:30pm",
+        "type_session": "Breakout",
+        "session_title": "Cancel Culture: How to Protect Charter and Autonomous Schools",
+        "confirmed_speakers": "Steven Wilson, Senior Fellow, Center on Reinventing Education, University of Washington\n\nMax Eden, Senior Fellow, Manhattan Institute",
+        "session_description": "The prevalence of “cancel culture” is perhaps nowhere more harmful and consequential than in classrooms where students are deterred from free exchange of ideas and perspectives with their peers. Now, the Trojan Horse of cancel culture and “wokeness” is at the door of the education reform movement, threatening the charter and choice-based schools that donors have tirelessly supported to give students opportunities they would not have had otherwise. What can donors do to ensure that students are still able to think for themselves and access honest conversations and diversity of thought? This critical discussion will advise donors on how they can protect the charter and choice-based institutions they support from this harmful trend and more importantly, the students those institutions ultimately serve."
+      },
+      {
+        "time": "3:30pm - 4:30pm",
+        "type_session": "Breakout",
+        "session_title": "Battlegrounds: Defending Democracy through Principled Foreign Policy ",
+        "confirmed_speakers": "LTG (Ret.) H.R. McMaster, Chairman, Center on Military and Political Power, Foundation for Defense of Democracies\n\nMark Dubowitz, CEO, Foundation for Defense of Democracies\n\nJim Hake, CEO, Spirit of America\n\nMarcus Ruzek, Senior Program Director, The Marcus Foundation\n",
+        "session_description": "Following H.R. McMaster’s Big Idea introduction, this panel will discuss why—with everything else going on in the world—we should pay attention to foreign policy. They’ll spotlight philanthropy’s role in defending freedom and the many ways private dollars have already made a positive impact on democracy.  "
+      },
+      {
+        "time": "4:45pm - 5:25pm",
+        "type_session": "Keynote",
+        "session_title": "Presentation of the William E. Simon Prize",
+        "confirmed_speakers": "Bill Simon (Welcome)\nJohn Sobrato \nSusan Sobrato\nInterviewer - Stephanie Saroki de Garcia ",
+        "session_description": "In an interview with Stephanie Saroki de Garcia, 2020 Simon Prize recipients John and Susan Sobrato will be celebrated for their remarkable leadership in giving."
+      },
+      {
+        "time": "5:25pm - 6:25pm",
+        "type_session": "Breakout",
+        "session_title": "Cocktail Hour",
+        "session_description": "The Philanthropy Roundtable’s Annual Meeting has long-brought together philanthropic decision makers to discuss how to solve our nation’s greatest problems through meaningful philanthropy. During this virtual cocktail hour, you may choose from one of the following networking breakouts.\n\n \n\nDuring these relaxed, informal breakouts, we invite the following groups to gather to share ideas, strategies, and best practices."
+      },
+      {
+        "time": "5:25pm - 6:25pm",
+        "type_session": "Breakout",
+        "session_title": "Family Foundations"
+      },
+      {
+        "time": "5:25pm - 6:25pm",
+        "type_session": "Breakout",
+        "session_title": "Foundation Professionals"
+      },
+      {
+        "time": "5:25pm - 6:25pm",
+        "type_session": "Breakout",
+        "session_title": "Principals and Individual Philanthropists "
+      },
+      {
+        "time": "5:25pm - 6:25pm",
+        "type_session": "Breakout",
+        "session_title": "First Time Attendees"
+      },
+      {
+        "time": "5:25pm - 6:25pm",
+        "type_session": "Breakout",
+        "session_title": "Open Mixer"
       }
     ]
   },
 
   {
     "id": 3,
-    "revised_schedule": "Thursday, October 15th",
-    "session_title": "3:30pm - 4:30pm",
-    "data": [
-      {
-        "session_title": "Why Urban America Matters: Race, Opportunity, and the American Future",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Reihan Salam, President, Manhattan Institute\n\nTim Carney, Resident Fellow, American Enterprise Institute \n\nKristen Soltis Anderson, Co-founder, Echelon Insights (Moderator)",
-        "TPR POC": "Content: Debi\nLogistics: Eric",
-        "Session Description:": "INFORMATION TO COME"
-      },
-      {
-        "session_title": "Leading with Courage",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Vivek Ramaswamy, Founder and CEO, Roivant Sciences\n\nAyaan Hirsi Ali, Research Fellow, Hoover Institution\n\nIan Rowe, CEO, Public Prep\n\nElise Westhoff, President and CEO, The Philanthropy Roundtable (Moderator)",
-        "TPR POC": "Content: Elise\nLogisitics: Mary Margaret",
-        "Session Description:": "INFORMATION TO COME"
-      },
-      {
-        "session_title": "Cancel Culture: How to Protect Charter and Autonomous Schools",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Steven Wilson, Senior Fellow, Center on Reinventing Education, University of Washington\n\nMax Eden, Senior Fellow, Manhattan Institute",
-        "TPR POC": "Content: Pat\nLogistics: Suzi",
-        "Session Description:": "The prevalence of “cancel culture” is perhaps nowhere more harmful and consequential than in classrooms where students are deterred from free exchange of ideas and perspectives with their peers. Now, the Trojan Horse of cancel culture and “wokeness” is at the door of the education reform movement, threatening the charter and choice-based schools that donors have tirelessly supported to give students opportunities they would not have had otherwise. What can donors do to ensure that students are still able to think for themselves and access honest conversations and diversity of thought? This critical discussion will advise donors on how they can protect the charter and choice-based institutions they support from this harmful trend and more importantly, the students those institutions ultimately serve."
-      },
-      {
-        "session_title": "Battlegrounds: Defending Democracy through Principled Foreign Policy ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "LTG (Ret.) H.R. McMaster, Chairman, Center on Military and Political Power, Foundation for Defense of Democracies\n\nMark Dubowitz, CEO, Foundation for Defense of Democracies\n\nJim Hake, CEO, Spirit of America\nMarcus Ruzek, Senior Program Director, The Marcus Foundation\n",
-        "TPR POC": "Content: Debi\nLogisitics: Amanda",
-        "Session Description:": "INFORMATION TO COME"
-      }
-    ]
-  },
-
-  {
-    "id": 4,
     "revised_schedule": "Friday, October 16th",
-    "session_title": "11:10am -11:55am",
     "data": [
       {
+        "time": "11am - 11:05am",
+        "type_session": "Keynote ",
+        "session_title": "Welcome",
+        "confirmed_speakers": "Brandon Millett, Vice President of Marketing and Communications, The Philanthropy Roundtable\n\nWindle Jarvis, Vice President of Development, The Philanthropy Roundtable \n\nDebi Ghate, Vice President of Innovation and Strategy, The Philanthropy Roundtable\n\nJoanne Florino, Vice President of Philanthropic Services, The Philanthropy Roundtable\n\nPat Burke, Assistant Director of K-12 Education Programming"
+      },
+      {
+        "time": "11:10am -11:55am",
+        "session_title": "Breakouts",
+        "session_description": "Choose from one of three session tracks:"
+      },
+      {
+        "time": "11:10am -11:55am",
+        "type_session": "Breakout",
         "session_title": "Philanthropic Best Practices\nNonprofit Financial Statements: How to Spot the Red Flags ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Tom Blaney, Partner, PKF O'Connor Davies",
-        "TPR POC": "Content: Joanne\nLogisitics: Rachel",
-        "Session Description:": "Financial statements tell an important story about how a current or potential grantee is operating and show a funder where the money came from, where it is now, and where it’s going. Returning to the Annual Meeting in this particularly tumultuous year for nonprofit organizations, Tom Blaney will alert you to potential “red flags” in these statements and answer your questions about how best to assess financial capacity and sustainability.   "
+        "confirmed_speakers": "Tom Blaney, Partner, PKF O'Connor Davies",
+        "session_description": "Financial statements tell an important story about how a current or potential grantee is operating and show a funder where the money came from, where it is now, and where it’s going. Returning to the Annual Meeting in this particularly tumultuous year for nonprofit organizations, Tom Blaney will alert you to potential “red flags” in these statements and answer your questions about how best to assess financial capacity and sustainability.   "
       },
       {
+        "time": "11:10am -11:55am",
+        "type_session": "Breakout",
         "session_title": "K-12 Education\nDeciphering the True Challenges of Teaching Literacy ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Kelly Butler, CEO, Barksdale Reading Institute\n\nTom Dillon, Co-founder and Co-CEO, The Literacy Lab\n\nBritish Robinson, President and CEO, Barbara Bush Foundation for Family Literacy\n\nJason Zylstra, Senior Director of Philanthropy, RDV Corporation (Moderator)",
-        "TPR POC": "Content: Pat & K12 Team\nLogisitics: Amanda",
-        "Session Description:": "For too many schools, teaching literacy has proven to be more of a stumbling block than a building block for all other forms of learning, reflected in stagnant NAEP (National Assessment of Educational Progress) scores and other year-to-year growth measures. In this session, panelists will discuss how donors can effectively identify and scale high-quality teaching strategies and curricular resources to reach more kids at a systemic level. "
+        "confirmed_speakers": "Kelly Butler, CEO, Barksdale Reading Institute\n\nTom Dillon, Co-founder and Co-CEO, The Literacy Lab\n\nBritish Robinson, President and CEO, Barbara Bush Foundation for Family Literacy\n\nJason Zylstra, Senior Director of Philanthropy, RDV Corporation (Moderator)",
+        "session_description": "For too many schools, teaching literacy has proven to be more of a stumbling block than a building block for all other forms of learning, reflected in stagnant NAEP (National Assessment of Educational Progress) scores and other year-to-year growth measures. In this session, panelists will discuss how donors can effectively identify and scale high-quality teaching strategies and curricular resources to reach more kids at a systemic level. "
       },
       {
-        "session_title": "Pandemics and Other Dangers Across Borders: U.S. Foreign Policy in Crisis",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Mark Dubowitz, CEO, Foundation for Defense of Democracies\n\nDanielle Pletka, Senior Fellow in Foreign and Defense Policy Studies, American Enterprise Institute\n\nTim Morrison, Senior Fellow, Hudson Institute\n\nDebi Ghate, Vice President of Strategy and Innovation, The Philanthropy Roundtable (Introduction and Moderator)",
-        "TPR POC": "Content: Debi\nLogisitics: Suzi",
-        "Session Description:": "With the tremendous stress and uncertainty surrounding the COVID-19 pandemic, why should Americans pay attention to foreign policy? History has taught us that pandemics create vulnerabilities in national security. During this session, experts will explain the current state of national security through the lens of the pandemic, where the nation should go from here, and what citizens should be prepared for."
-      }
-    ]
-  },
-
-  {
-    "id": 5,
-    "revised_schedule": "Friday, October 16th",
-    "session_title": "12:30pm-1:15pm",
-    "data": [
+        "time": "11:10am -11:55am",
+        "type_session": "Breakout",
+        "session_title": "COVID-19 and Liberty\nPandemics and Other Dangers Across Borders: U.S. Foreign Policy in Crisis ",
+        "confirmed_speakers": "Mark Dubowitz, CEO, Foundation for Defense of Democracies\n\nDanielle Pletka, Senior Fellow in Foreign and Defense Policy Studies, American Enterprise Institute\n\nTim Morrison, Senior Fellow, Hudson Institute\n\nDebi Ghate, Vice President of Strategy and Innovation, The Philanthropy Roundtable (Introduction and Moderator)",
+        "session_description": "With the tremendous stress and uncertainty surrounding the COVID-19 pandemic, why should Americans pay attention to foreign policy? History has taught us that pandemics create vulnerabilities in national security. During this session, experts will explain the current state of national security through the lens of the pandemic, where the nation should go from here, and what citizens should be prepared for."
+      },
       {
+        "time": "12:30pm-1:15pm",
+        "type_session": "Breakout",
         "session_title": "Philanthropic Best Practices\nMaking the Right Governance Decisions to Protect Donor Intent",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Steven Moore, Executive Director and CEO, M.J. Murdock Charitable Trust\n\nDavid Odahowski, President, CEO, and Trustee, Edyth Bush Charitable Foundation\n\nPeter Simon, Managing Partner, Massey Quick Simon\n\nCarrie Tynan, Executive Director, Adolph Coors Foundation\n\nJoanne Florino, Vice President of Philanthropic Services, The Philanthropy Roundtable (Moderator) ",
-        "TPR POC": "Content: Joanne\nLogisitics: Amanda",
-        "Session Description:": "Governance practices can help or hinder the protection of donor intent. This panel of experienced grantmakers will discuss determining eligibility, selecting board members, choosing a board structure, establishing wise board policies, and planning for succession. They will address the special circumstances of family foundations when governance is complicated by having too few or too many family members, or family members separated by geography, interests, and even core values. Lastly, the panel will address how family foundations require different preparations for succession, taking into consideration how best to raise and prepare children for philanthropic responsibilities and optimal ways to bring them on board.  "
+        "confirmed_speakers": "Steven Moore, Executive Director and CEO, M.J. Murdock Charitable Trust\n\nDavid Odahowski, President, CEO, and Trustee, Edyth Bush Charitable Foundation\n\nPeter Simon, Managing Partner, Massey Quick Simon\n\nCarrie Tynan, Executive Director, Adolph Coors Foundation\n\nJoanne Florino, Vice President of Philanthropic Services, The Philanthropy Roundtable (Moderator) ",
+        "session_description": "Governance practices can help or hinder the protection of donor intent. This panel of experienced grantmakers will discuss determining eligibility, selecting board members, choosing a board structure, establishing wise board policies, and planning for succession. They will address the special circumstances of family foundations when governance is complicated by having too few or too many family members, or family members separated by geography, interests, and even core values. Lastly, the panel will address how family foundations require different preparations for succession, taking into consideration how best to raise and prepare children for philanthropic responsibilities and optimal ways to bring them on board.  "
       },
       {
-        "session_title": "K12 Education\nClassical Education: The Pursuit of Truth, Goodness, and Beauty ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Julia Dyson Hejduk, Reverend Jacob Beverly Stiteler Professor of Classics, Baylor University\n\nLeslie Moeller, Chairman, Society for Classical Learning\n\nDean Forman, Founder and Chairman, John Adams Academy (Moderator)",
-        "TPR POC": "Content: Pat & Shaun\nLogistics: Eric",
-        "Session Description:": "During this donor-led workshop, attendees will discuss the practical uses of philanthropy in growing classical schools and networks. Donors will learn from both school leaders and one another how to convey to families the value of classical education at all levels of a student’s education, as well as strategies to ultimately bring the classical approach to the forefront of education in America. "
+        "time": "12:30pm-1:15pm",
+        "type_session": "Breakout",
+        "session_title": "K-12 Education\nClassical Education: The Pursuit of Truth, Goodness, and Beauty ",
+        "confirmed_speakers": "Julia Dyson Hejduk, Reverend Jacob Beverly Stiteler Professor of Classics, Baylor University\n\nLeslie Moeller, Chairman, Society for Classical Learning\n\nDean Forman, Founder and Chairman, John Adams Academy (Moderator)",
+        "session_description": "During this donor-led workshop, attendees will discuss the practical uses of philanthropy in growing classical schools and networks. Donors will learn from both school leaders and one another how to convey to families the value of classical education at all levels of a student’s education, as well as strategies to ultimately bring the classical approach to the forefront of education in America. "
       },
       {
+        "time": "12:30pm-1:15pm",
+        "type_session": "Breakout",
         "session_title": "COVID-19 and Liberty\nFrom Emergency Authorizations to Permanent Reform: Healthcare after COVID-19 ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Steven Anderson, President and CEO, Pacific Legal Foundation\n\nGeorge Coates, Board Chair, Commonwealth Foundation\n\nKathleen O'Hearn, Senior Director of Policy Advancement, State Policy Network\n\nDebi Ghate, Vice President of Strategy and Innovation, The Philanthropy Roundtable (Moderator)",
-        "TPR POC": "Content: Debi\nLogisitics: Mary Margaret",
-        "Session Description:": "For years, policymakers have focused on the supply of health insurance while ignoring the root problem: the supply of health care. Government regulations that limit health care mobility and crony protectionist policies have distorted the market and stifled the available supply of care. Many state and local laws limit the number of providers that can practice in a region, how many beds they can offer, and the equipment they can use. The COVID-19 crisis has intensified the ways such policies constrict demand and prevent patients from getting the care they need. Emergency measures have been passed to reform these policies in response to the crisis. This begs the question: why can’t reforms be made permanent?  "
-      }
-    ]
-  },
-
-  {
-    "id": 6,
-    "revised_schedule": "Friday, October 16th",
-    "session_title": "1:20pm-2:05pm",
-    "data": [
+        "confirmed_speakers": "Steven Anderson, President and CEO, Pacific Legal Foundation\n\nGeorge Coates, Board Chair, Commonwealth Foundation\n\nKathleen O'Hearn, Senior Director of Policy Advancement, State Policy Network\n\nDebi Ghate, Vice President of Strategy and Innovation, The Philanthropy Roundtable (Moderator)",
+        "session_description": "For years, policymakers have focused on the supply of health insurance while ignoring the root problem: the supply of health care. Government regulations that limit health care mobility and crony protectionist policies have distorted the market and stifled the available supply of care. Many state and local laws limit the number of providers that can practice in a region, how many beds they can offer, and the equipment they can use. The COVID-19 crisis has intensified the ways such policies constrict demand and prevent patients from getting the care they need. Emergency measures have been passed to reform these policies in response to the crisis. This begs the question: why can’t reforms be made permanent?  "
+      },
       {
+        "time": "1:20pm-2:05pm",
+        "type_session": "Breakout",
         "session_title": "Philanthropic Best Practices\nDeveloping a Grant Agreement: What to Leave In, What to Leave Out  ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Karen Gries, Principal, CliftonLarsonAllen\n\nJohn Jackson, Co-founder and Executive Vice President, Hoplin Jackson Charitable Advisors\n\nAndras Kosaras, Counsel, Arnold & Porter",
-        "TPR POC": "Content: Joanne\nLogisitics: Suzi",
-        "Session Description:": "No matter the nature or size of your grants, it’s essential to have a thorough grant agreement in place. Some grant agreements may need to be more complex than others, but all such documents must provide both donor and grantee a clear understanding of expectations, restrictions, payment schedules, and reporting requirements. This session will bring together a seasoned grantmaker, a philanthropy-savvy attorney, and a CPA well-versed in the changing rules of nonprofit accounting to guide you in developing the best format(s) for your philanthropy.  "
+        "confirmed_speakers": "Karen Gries, Principal, CliftonLarsonAllen\n\nJohn Jackson, Co-founder and Executive Vice President, Hoplin Jackson Charitable Advisors\n\nAndras Kosaras, Counsel, Arnold i Porter",
+        "session_description": "No matter the nature or size of your grants, it’s essential to have a thorough grant agreement in place. Some grant agreements may need to be more complex than others, but all such documents must provide both donor and grantee a clear understanding of expectations, restrictions, payment schedules, and reporting requirements. This session will bring together a seasoned grantmaker, a philanthropy-savvy attorney, and a CPA well-versed in the changing rules of nonprofit accounting to guide you in developing the best format(s) for your philanthropy.  "
       },
       {
+        "time": "1:20pm-2:05pm",
+        "type_session": "Breakout",
         "session_title": "K-12 Education\nReopening Schools: Adapting and Advancing in a Time of Uncertainty ",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Michael Horn, Senior Strategist, Guild Education\n\nJon Rybka, CEO, RePublic Schools \n\nKelly Smith, CEO, Prenda",
-        "TPR POC": "Content: Pat\nLogistics: Eric",
-        "Session Description:": "Amid school closures, transitions to distance learning, and disruption of student and family services during COVID-19, many educators have risen to the occasion to maintain academic rigor, all the while preventing learning loss and planning for reopening schools. How can donors support high-quality schools and learning communities that are autonomously and responsively meeting the needs of students and families? How can donors square the support of immediate school needs while still turning an eye toward reimagined classrooms, in-person or otherwise? This wide-ranging discussion will focus on how charter and choice-based schools have pivoted since the start of quarantines; how school reopenings are faring; and the manifestation of pandemic-induced innovations and wholly new learning models that could be here to stay.  "
+        "confirmed_speakers": "Michael Horn, Senior Strategist, Guild Education\n\nJon Rybka, CEO, RePublic Schools \n\nKelly Smith, CEO, Prenda",
+        "session_description": "Amid school closures, transitions to distance learning, and disruption of student and family services during COVID-19, many educators have risen to the occasion to maintain academic rigor, all the while preventing learning loss and planning for reopening schools. How can donors support high-quality schools and learning communities that are autonomously and responsively meeting the needs of students and families? How can donors square the support of immediate school needs while still turning an eye toward reimagined classrooms, in-person or otherwise? This wide-ranging discussion will focus on how charter and choice-based schools have pivoted since the start of quarantines; how school reopenings are faring; and the manifestation of pandemic-induced innovations and wholly new learning models that could be here to stay.  "
       },
       {
+        "time": "1:20pm-2:05pm",
+        "type_session": "Breakout",
         "session_title": "COVID-19 and Liberty\nPhilanthropy and the Road to Economic Recovery",
-        "on agenda where it says plenanry.. Write this": "Breakout",
-        "Speakers": "Jay Hein, President, Sagamore Institute \n\nPeter Lipsett, Vice President, DonorsTrust \n\nAlicia Manning, Senior Program Director, Bradley Foundation ",
-        "TPR POC": "Content: Tony\nLogisitics: Rachel",
-        "Session Description:": "COVID-19 has disrupted the economy and workforce. With 18 million people out of work and unemployment at 10%, any recovery effort must immediately get people back to work. Work is a vital part of the free enterprise system, provides opportunity for all, and minimizes the need for government income supports like unemployment insurance. At the same time, our nation is grappling with a racial crisis and being met with demands for more people to become entrepreneurs and to create jobs – particularly in underserved and under-resourced communities. This session will analyze the role of venture philanthropy and impact investing in supporting innovative solutions to the current crisis. Featuring two venture philanthropists, this panel will highlight philosophies of impact investing and the importance of facilitating individuals getting back to work, securing necessary skills, and becoming successful in launching new businesses.  "
+        "confirmed_speakers": "Jay Hein, President, Sagamore Institute \n\nPeter Lipsett, Vice President, DonorsTrust \n\nAlicia Manning, Senior Program Director, Bradley Foundation ",
+        "session_description": "COVID-19 has disrupted the economy and workforce. With 18 million people out of work and unemployment at 10%, any recovery effort must immediately get people back to work. Work is a vital part of the free enterprise system, provides opportunity for all, and minimizes the need for government income supports like unemployment insurance. At the same time, our nation is grappling with a racial crisis and being met with demands for more people to become entrepreneurs and to create jobs – particularly in underserved and under-resourced communities. This session will analyze the role of venture philanthropy and impact investing in supporting innovative solutions to the current crisis. Featuring two venture philanthropists, this panel will highlight philosophies of impact investing and the importance of facilitating individuals getting back to work, securing necessary skills, and becoming successful in launching new businesses.  "
+      },
+      {
+        "time": "2:05pm-2:50pm",
+        "type_session": "Keynote",
+        "session_title": "The State of Philanthropy and Closing Remarks",
+        "confirmed_speakers": "Rick Graber, Chairman, The Philanthropy Roundtable\n\nElise Westhoff, President and CEO, The Philanthropy Roundtable"
       }
     ]
   }

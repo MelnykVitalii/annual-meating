@@ -5,7 +5,7 @@
     <div class="signIn-container">
       <h3 class="signIn--header">
         WELCOME <br />
-        PLEASE LOG IN
+        Password Creation
       </h3>
 
       <form class="signIn--form-inputs">
