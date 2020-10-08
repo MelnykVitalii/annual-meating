@@ -15,8 +15,12 @@ function getAgendaById(id) {
 
 function getSpeakersList() {
   return speakersListData.sort((a, b) =>
-    a.first_name > b.first_name ? 1 : b.first_name > a.first_name ? -1 : 0
+    a.first_name > b.last_name ? 1 : b.last_name > a.last_name ? -1 : 0
   )
+}
+
+function getSpeakerListLength() {
+  return speakersListData.length
 }
 
 function getSpeakerById(id) {
@@ -28,5 +32,6 @@ export {
   getAgendaByIndex,
   getAgendaById,
   getSpeakersList,
+  getSpeakerListLength,
   getSpeakerById
 }

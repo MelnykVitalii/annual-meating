@@ -5,6 +5,7 @@
       <div class="header-link--container">
         <router-link to="/">Lobby</router-link>
         <router-link to="/agendaList">Agenda</router-link>
+        <router-link to="/breakouts">Breakouts</router-link>
         <router-link to="/speakerList">Speaker library</router-link>
         <router-link to="/signIn">Your name</router-link>
       </div>

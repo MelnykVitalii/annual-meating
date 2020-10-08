@@ -14,7 +14,7 @@
       <div class="speakers-panel--list">
         <div
           v-for="item in speakersList"
-          :id="item.first_name.charAt(0).toLowerCase()"
+          :id="item.last_name.charAt(0).toLowerCase()"
           :key="item.id"
           class="speakers-panel--list-item"
           @click="viewSpeaker(item.id)"
@@ -65,6 +65,10 @@ export default {
     },
 
     scrollTo(item) {
+      if (item === Alphabet[0]) {
+        return animateScrollTo([0, 0])
+      }
+
       const el = document.querySelector(`#${item}`)
 
       if (el) {

@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from 'vue-router'
 
 import Dashboard from '@/components/dashboard/dashboard'
 import SignIn from '@/components/signIn/signIn'
+import Breakouts from '@/components/breakouts/breakouts'
 import SpeakerList from '@/components/speakerList/speakerList'
 import SpeakerView from '@/components/speakerView/speakerView'
 import AgendaList from '@/components/agendaList/agendaList'
@@ -34,6 +35,12 @@ const routes = [
     name: 'AgendaList',
     component: AgendaList
   },
+  {
+    path: '/breakouts',
+    name: 'Breakouts',
+    component: Breakouts
+  },
+
   {
     path: '/agendaView/:id/:index',
     name: 'AgendaView',
